@@ -70,6 +70,6 @@ if __name__ == '__main__':
             'result': 'words/chenjiaci_result.txt'
         }
     }
-    currentConfig = config['xihan']
+    currentConfig = config['chenjiaci']
     s.statWords(currentConfig['file_in'], currentConfig['file_out'])
     s.statTopN(currentConfig['file_out'], currentConfig['words_out'], 800, currentConfig['result'])
